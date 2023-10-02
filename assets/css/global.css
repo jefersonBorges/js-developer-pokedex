@@ -1,24 +1,80 @@
 * {
-    font-family: 'Roboto', sans-serif;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  list-style: none;
 }
 
 body {
-    background-color: #f6f8fc;
+  background-color: #f1f3f7;
+}
+
+header {
+  position: absolute;
+  inset: 1rem;
+  height: 4.5rem;
+  padding: 1rem;
+  background-color: #263239;
+  border-radius: 1rem;
+  color: #fff;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  color: #feca2b;
+  -webkit-text-stroke-width: .1rem;
+  -webkit-text-stroke-color: #365fa4;
 }
 
 .content {
-    width: 100vw;
-    height: 100vh;
-    padding: 1rem;
-    background-color: #fff;
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding: 1rem;
+  background-color: #fff;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+table,
+tr,
+th,
+td {
+  border: none;
+}
+
+.attribution {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 0 1rem;
+  height: 5rem;
+  background-color: #263239;
+  color: #feca2b;
+  font-size: 1rem;
+}
+
+.attribution a,
+.attribution a:link {
+  font-style: italic;
+  color: inherit;
+}
+
+.attribution a {
+  height: 100%;
 }
 
 @media screen and (min-width: 992px) {
-    .content {
-        max-width: 992px;
-        height: auto;
-        margin: 1rem auto;
-        border-radius: 1rem;
-    }
+  .content {
+    max-width: 992px;
+    height: auto;
+    margin: 1rem auto;
+    border-radius: 1rem;
+  }
 }
