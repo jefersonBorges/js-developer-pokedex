@@ -35,14 +35,14 @@ css variables
 
 - [Visão geral](#visão-geral)
   - [Desafio](#desafio)
-  - [Screenshots](#screenshot)
+  - [Screenshots](#screenshots)
     - [Mobile](#mobile)
     - [Desktop](#desktop)
     - [Active states](#active-states)
   - [Links](#links)
 - [Meu processo](#meu-processo)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
+  - [Construído com](#construído-com)
+  - [O que Aprendi](#o-que-aprendi)
 - [Autor](#autor)
 
 ## Visão geral
@@ -59,7 +59,7 @@ Recursos disponíveis ao usuário:
 - Carregar pokemons com o botão "load more"
 - Visualizar card com as informações detalhadas do pokemon ao clicar sobre o mesmo
 
-### Screenshot
+### Screenshots
 
 #### Mobile
 
@@ -75,23 +75,23 @@ Recursos disponíveis ao usuário:
 
 ### Links
 
-- Solution URL: [Github repository](https://github.com/jefersonBorges/fem-expenses-chart)
+- Solution URL: [Github repository](https://github.com/jefersonBorges/js-developer-pokedex)
 - Live Site URL: [Github live page](https://jefersonborges.github.io/fem-expenses-chart/)
 
 ## Meu processo
 
-### Built with
+### Construído com
 
-- Semantic HTML5 markup
-- Flexbox
-- SASS
+- CSS
+  - Flexbox
+  - Grid
+  - Variáveis
 - JavaScript
   - DOM
-  - OOP
   - Async
   - ES6 Features
 
-### What I learned
+### O que Aprendi
 
 Using JS Dom to generate the chart elements was very fun!
 
